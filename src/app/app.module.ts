@@ -9,12 +9,14 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/about/about.component';
 import { HomeComponent } from './pages/home/home/home.component';
 import { HomeModule } from './pages/home/home.module';
+import { ServicesComponent } from './components/services/services.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     AboutComponent,
+    ServicesComponent,
   ],
   imports: [
     BrowserModule,
