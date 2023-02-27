@@ -12,6 +12,7 @@ import { HomeModule } from './pages/home/home.module';
 import { ServicesComponent } from './components/services/services.component';
 import { EmployeeComponent } from './components/employee/employee.component';
 import { EmployeeService } from './services/employee/employee.services';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,10 +26,11 @@ import { EmployeeService } from './services/employee/employee.services';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HomeModule
+    HomeModule,
+    HttpClientModule
     
   ],
-  providers: [EmployeeService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
